@@ -1,5 +1,5 @@
 *****************************************************
-		Joint Sentiment-Topic (JST) Model 
+         Joint Sentiment-Topic (JST) Model 
 *****************************************************
 
 (C) Copyright 2013, Chenghua Lin and Yulan He
@@ -97,7 +97,7 @@ D. Data format
 
 (2) Sentiment lexicon (mpqa.constraint)
 
-	[word]	[neu prior prob.] [pos prior prob.] [neg prior prob.]
+    [word]	[neu prior prob.] [pos prior prob.] [neg prior prob.]
 	
 	
 ------------------------------------------------------------------------
