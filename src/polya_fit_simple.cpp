@@ -26,6 +26,7 @@ USA
 
 ***********************************************************************/
 
+#include <stdio.h>
 #include "polya_fit_simple.h"
 #include "math_func.h"
 #include <math.h>
