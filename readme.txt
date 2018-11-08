@@ -51,8 +51,9 @@ E. References
 
 A. COMPILING
 
-Type "make" in a shell.
-
+    $ git clone https://github.com/linron84/JST
+    $ cd JST/Debug
+    $ make
 
 ------------------------------------------------------------------------
 
