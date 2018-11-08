@@ -60,7 +60,7 @@ B. ESTIMATION
 
 Estimate the model by executing:
 
-	jst -est -config YOUR-PATH/train.properties	
+	$ jst -est -config YOUR-PATH/train.properties	
 	
 Outputs of jst estimation include the following files:
 	<iter>.others  // contains model parameter settings
@@ -75,7 +75,7 @@ C. INFERENCE
 To perform inference on a different set of data (in the same format as
 for estimation), execute:
 
-    jst -inf -config YOUR-PATH/test.properties
+    $ jst -inf -config YOUR-PATH/test.properties
     
 Outputs of jst inference include the following files:
 	<modelName_iter>.newothers 
