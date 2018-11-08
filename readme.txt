@@ -1,5 +1,5 @@
 *****************************************************
-         Joint Sentiment-Topic (JST) Model 
+         Joint Sentiment-Topic (JST) Model
 *****************************************************
 
 (C) Copyright 2013, Chenghua Lin and Yulan He
@@ -27,7 +27,7 @@ USA
 
 ------------------------------------------------------------------------
 
-This is a C++ implementation of the joint sentiment-topic (JST) model for  
+This is a C++ implementation of the joint sentiment-topic (JST) model for
 sentiment classification and extracting sentiment-bearing topics from text copara.
 
 ------------------------------------------------------------------------
@@ -44,7 +44,7 @@ C. INFERENCE
 
 D. Data format
 
-E. References 
+E. References
 
 
 ------------------------------------------------------------------------
@@ -61,12 +61,12 @@ B. ESTIMATION
 
 Estimate the model by executing:
 
-	$ jst -est -config YOUR-PATH/train.properties	
+	$ jst -est -config YOUR-PATH/train.properties
 
 Example:
 
 	$ Debug/jst -est -config train.properties
-	
+
 Outputs of jst estimation include the following files:
 	<iter>.others  // contains model parameter settings
 	<iter>.pi      // contains the per-document sentiment distributions
@@ -85,14 +85,14 @@ for estimation), execute:
 Example:
 
     $ Debug/jst -inf -config test.properties
-    
+
 Outputs of jst inference include the following files:
-	<modelName_iter>.newothers 
-	<modelName_iter>.newpi 
-	<modelName_iter>.newphi 
-	<modelName_iter>.newtheta 
+	<modelName_iter>.newothers
+	<modelName_iter>.newpi
+	<modelName_iter>.newphi
+	<modelName_iter>.newtheta
 	<modelName_iter>.newtassign
-    
+
 ------------------------------------------------------------------------
 
 D. Data format
@@ -107,8 +107,8 @@ D. Data format
 (2) Sentiment lexicon (mpqa.constraint)
 
     [word]	[neu prior prob.] [pos prior prob.] [neg prior prob.]
-	
-	
+
+
 ------------------------------------------------------------------------
 
 E. References
